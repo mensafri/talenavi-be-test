@@ -38,7 +38,7 @@ class TodoSeeder extends Seeder
             ],
             [
                 'title' => 'Review pull requests',
-                'assignee' => null,
+                'assignee' => 'Alice',
                 'due_date' => Carbon::now()->addDays(1)->toDateString(),
                 'time_tracked' => 30,
                 'status' => 'in_progress',

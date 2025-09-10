@@ -86,7 +86,7 @@ Berikut adalah daftar endpoint API yang tersedia untuk diuji.
 1. Create Todo
    Method: POST
 
-Endpoint: /api/todos
+Endpoint: `/api/todos`
 
 Body (raw/json):
 
