@@ -63,11 +63,12 @@ Bash
 `php artisan key:generate`
 
 5. Jalankan Migrasi Database
-   Jalankan migrasi untuk membuat tabel todos di dalam database SQLite Anda.
+   Jalankan migrasi untuk membuat tabel todos di dalam database SQLite Anda. Jika perlu jalankan seedernya juga
 
 Bash
 
 `php artisan migrate`
+`php artisan db:seed`
 
 ## Menjalankan Aplikasi
 
